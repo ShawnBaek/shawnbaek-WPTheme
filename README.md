@@ -1,7 +1,6 @@
 # shawnbaek-WPTheme
 React based Wordpress Theme Starter
 
-### About
 
 ![shawnbaek](./images/shawnbaek.gif)
 
