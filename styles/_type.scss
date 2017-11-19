@@ -1,0 +1,237 @@
+// stylelint-disable declaration-no-important, selector-list-comma-newline-after
+
+
+html, .root {
+
+  font-size: $font-size-base-px;
+  line-height: $font-size-base-px * $line-height-base;
+
+}
+
+
+
+// @font-face {
+// 	font-family: 'Lora';
+// 	src: url('../fonts/Lora/Lora-Regular.ttf') format('truetype');
+// }
+
+// @font-face {
+// 	font-family: 'Nunito';
+// 	src: url('../fonts/Nunito/Nunito-Regular.ttf') format('truetype');
+// }
+
+
+body{
+    
+    font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+//
+// Headings
+//
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+//  margin-bottom: $headings-margin-bottom;
+//  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+//  line-height: $headings-line-height;
+  margin-top:  $headings-margin-top;
+  color:       $headings-color;
+}
+
+h1, .h1 { 
+    
+    font-size:     $h1-font-size; 
+    line-height:   $h1-line-height;
+    margin-bottom: $h1-margin-bottom;
+}
+
+h2, .h2 { 
+    
+    font-size:     $h2-font-size; 
+    line-height:   $h2-line-height;
+    margin-bottom: $h2-margin-bottom;
+}
+
+h3, .h3 { 
+    
+    font-size:     $h3-font-size; 
+    line-height:   $h3-line-height;
+    margin-bottom: $h3-margin-bottom;
+}
+
+h4, .h4 { 
+    
+    font-size:     $h4-font-size; 
+    line-height:   $h4-line-height;
+    margin-bottom: $h4-margin-bottom;
+}
+
+h5, .h5 { 
+    
+    font-size:     $h5-font-size; 
+    line-height:   $h5-line-height;
+    margin-bottom: $h5-margin-bottom;
+}
+
+h6, .h6 { 
+    
+    font-size:     $h6-font-size; 
+    line-height:   $h6-line-height;
+    margin-bottom: $h6-margin-bottom;
+}
+
+
+.lead {
+  font-size: $lead-font-size;
+  font-weight: $lead-font-weight;
+}
+
+// Type display classes
+.display-1 {
+  font-size: $display1-size;
+  font-weight: $display1-weight;
+  line-height: $display-line-height;
+}
+.display-2 {
+  font-size: $display2-size;
+  font-weight: $display2-weight;
+  line-height: $display-line-height;
+}
+.display-3 {
+  font-size: $display3-size;
+  font-weight: $display3-weight;
+  line-height: $display-line-height;
+}
+.display-4 {
+  font-size: $display4-size;
+  font-weight: $display4-weight;
+  line-height: $display-line-height;
+}
+
+
+//
+// Horizontal rules
+//
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: $hr-border-width solid $hr-border-color;
+}
+
+
+//
+// Emphasis
+//
+
+small,
+.small {
+  font-size: $small-font-size;
+  font-weight: $font-weight-normal;
+}
+
+mark,
+.mark {
+  padding: $mark-padding;
+  background-color: $mark-bg;
+}
+
+
+//
+// Lists
+//
+
+.list-unstyled {
+  @include list-unstyled;
+}
+
+// Inline turns list items into inline-block
+.list-inline {
+  @include list-unstyled;
+}
+.list-inline-item {
+  display: inline-block;
+
+  &:not(:last-child) {
+    margin-right: $list-inline-padding;
+  }
+}
+
+
+//
+// Misc
+//
+
+// Builds on `abbr`
+.initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+
+// Blockquotes
+.blockquote {
+  margin-bottom: $spacer;
+  font-size: $blockquote-font-size;
+}
+
+.blockquote-footer {
+  display: block;
+  font-size: 80%; // back to default font-size
+  color: $blockquote-small-color;
+
+  &::before {
+    content: "\2014 \00A0"; // em dash, nbsp
+  }
+}
+
+
+// Grid Lover
+
+
+// GridLover
+
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+/* Let's make sure all's aligned */
+hr, .hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+
+a, b, i, strong, em, small, code {
+  line-height: 0;
+}
+
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+
+

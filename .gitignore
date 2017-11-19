@@ -1,0 +1,12 @@
+/node_modules
+bundle.js
+npm-debug.log
+.DS_Store
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
