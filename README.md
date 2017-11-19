@@ -61,7 +61,7 @@ npm run watch
 ### Thanks for
 
 * [Foxhound Wordpress Theme](https://github.com/ryelle/Foxhound)
-* [Stephen Grinder](https://github.com/StephenGrider)
+* [Stephen Grider](https://github.com/StephenGrider)
 * [WReact Wordpress Starter](https://github.com/itzikbenh/WReact)
 
 
