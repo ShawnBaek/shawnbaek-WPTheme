@@ -19,13 +19,16 @@ class BlogPage extends Component {
         return _.map(this.props.posts, post => {
 
             const url = `/blog/${post.id}`;
+            const title =  _.result(post, 'title.rendered');
+            const postId = _.result(post, 'id');
+            
             return (
                 // <div key={post.id}>{post.id}</div>
 
-                <li className="list-group-item" key={post.id}>
+                <li className="list-group-item" key={postId}>
                 
                     <Link to={url}>
-                        {post.title.rendered}}
+                        {title}}
                     </Link>
                 
                 </li>
