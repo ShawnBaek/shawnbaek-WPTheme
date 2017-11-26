@@ -14,6 +14,7 @@ I set up vertical rhythm using gridlover's rule using SASS.
 
 https://www.gridlover.net/
 
+[Live Demo: Visit My Site](https://shawnbaek.com)
 
 ## Libraries
 
