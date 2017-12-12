@@ -50,6 +50,12 @@ npm run production
 ```
 
 ## Test
+* Install Wordpress locally using [MAMP](https://www.mamp.info/en/), [Wordpress Official Install Guide](https://codex.wordpress.org/Installing_WordPress_Locally_on_Your_Mac_With_MAMP)
+
+* clone this repository at wordpress -> wp-content -> themes -> shawnbaek-WPTheme
+
+* set theme and activate
+
 ```javascript
 npm run watch
 ```
