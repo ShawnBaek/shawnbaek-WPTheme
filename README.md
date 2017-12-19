@@ -1,6 +1,8 @@
 # shawnbaek-WPTheme
 React based Wordpress Theme Starter
 
+# Live Demo
+[shawnbaek.com](https://shawnbaek.com)
 
 ![shawnbaek](./images/shawnbaek.gif)
 
@@ -14,7 +16,7 @@ I set up vertical rhythm using gridlover's rule using SASS.
 
 https://www.gridlover.net/
 
-[Live Demo: Visit My Site](https://shawnbaek.com)
+
 
 ## Libraries
 
@@ -60,10 +62,14 @@ npm run production
 npm run watch
 ```
 
-### TODO
+## TODO
 
-* sub route
-* bootstrap navbar activate
+* react-router Sub Route
+* fix bootstrap navbar collapse problem
+* server side rendering to improve SEO
+
+## Any Questions?
+* email me at shawn@shawnbaek.com
 
 ### Thanks for
 
