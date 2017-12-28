@@ -39,7 +39,7 @@ https://www.gridlover.net/
 * [Faker Press](https://wordpress.org/plugins/fakerpress/)
 
 
-### Development
+### Development Settings
 
 ## Build
 ```javascript
@@ -66,7 +66,10 @@ npm run watch
 
 * react-router Sub Route
 * fix bootstrap navbar collapse problem
-* server side rendering to improve SEO
+* SEO
+
+## Server Side Rendering?
+No. I'm going to find a better way to improve SEO without SSR. The Wordpress is not supporting both node.js and express.js. 
 
 ## Any Questions?
 * email me at shawn@shawnbaek.com
